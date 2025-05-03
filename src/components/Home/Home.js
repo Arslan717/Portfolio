@@ -14,20 +14,24 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
+                Welcome to Dream Foundry Games! 
                 <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
+                  🎮
                 </span>
               </h1>
 
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                WE CREATE
+                <strong className="main-name"> IMMERSIVE EXPERIENCES</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
+
+              <p style={{ fontSize: "1.2em", lineHeight: "1.6", color: "#c5c6c7" }}>
+                At Dream Foundry Games, we are dedicated to crafting magical gaming experiences that captivate and inspire players around the world.
+              </p>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>

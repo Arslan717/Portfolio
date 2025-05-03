@@ -6,7 +6,11 @@ function ScrollToTop() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
-  return null;
+  return (
+    <div style={{ backgroundColor: "#1a1a1d", color: "#c5c6c7", fontFamily: "'Press Start 2P', cursive" }}>
+      {/* ScrollToTop content here */}
+    </div>
+  );
 }
 
 export default ScrollToTop;

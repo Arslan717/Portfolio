@@ -16,9 +16,15 @@ function ResumeNew() {
   }, []);
 
   return (
-    <div>
+    <div style={{ backgroundColor: "#1a1a1d", color: "#c5c6c7", fontFamily: "'Press Start 2P', cursive" }}>
       <Container fluid className="resume-section">
         <Particle />
+        <h1 style={{ color: "#66fcf1", textAlign: "center", marginBottom: "20px" }}>
+          Our Team's <strong className="purple">Game Development Journey</strong>
+        </h1>
+        <p style={{ color: "#c5c6c7", textAlign: "center" }}>
+          Explore the skills and achievements that make us leaders in the gaming industry.
+        </p>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"

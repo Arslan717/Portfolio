@@ -11,60 +11,17 @@ function Footer() {
   let date = new Date();
   let year = date.getFullYear();
   return (
-    <Container fluid className="footer">
-      <Row>
-        <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Soumyajit Behera</h3>
-        </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
-        </Col>
-        <Col md="4" className="footer-body">
-          <ul className="footer-icons">
-            <li className="social-icons">
-              <a
-                href="https://github.com/soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillGithub />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://twitter.com/Soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <FaLinkedinIn />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.instagram.com/soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
-              </a>
-            </li>
-          </ul>
-        </Col>
-      </Row>
-    </Container>
+    <footer style={{ backgroundColor: "#1a1a1d", color: "#c5c6c7", fontFamily: "'Press Start 2P', cursive", padding: "20px", textAlign: "center" }}>
+      <p>© 2024 Dream Foundry Games. All Rights Reserved.</p>
+      <p>1113 East Carson Street, Floor 2, Pittsburgh, Pa 15203</p>
+      <p>Contact: <a href="mailto:player_one@dreamfoundrygames.com" style={{ color: "#66fcf1" }}>player_one@dreamfoundrygames.com</a></p>
+      <div>
+        <a href="https://www.facebook.com/dreamfoundrygames" style={{ margin: "0 10px", color: "#66fcf1" }}>Facebook</a>
+        <a href="https://twitter.com/dreamfoundrygames" style={{ margin: "0 10px", color: "#66fcf1" }}>Twitter</a>
+        <a href="https://www.twitch.tv/dreamfoundrygames" style={{ margin: "0 10px", color: "#66fcf1" }}>Twitch</a>
+        <a href="https://www.linkedin.com/company/dreamfoundrygames" style={{ margin: "0 10px", color: "#66fcf1" }}>LinkedIn</a>
+      </div>
+    </footer>
   );
 }
 
